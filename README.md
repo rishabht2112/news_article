@@ -21,8 +21,8 @@ A Flutter application that displays a list of articles fetched from a public API
 
 2. Install Dependencies
   - flutter pub get
-
-4. Run the App
+    
+3. Run the App
   - flutter run
 
 ## Tech Stack
@@ -38,9 +38,9 @@ The app uses the Provider package to manage its state. The main state is handled
 
 ## Known Issues / Limitations
 
-**No backend for Authentication**: The app does not include authentication features (such as login/logout), which means users can only access the content publicly. Adding user authentication could allow users to create accounts and manage personal preferences like saved articles or personalized feeds.
-**No Offline Support**: The app relies on a constant internet connection to fetch articles. There's no local caching implemented, meaning the app cannot function without an internet connection.
-**No Data Caching**: Articles are fetched every time the app loads, resulting in slower startup times.
+- No backend for Authentication: The app does not include authentication features (such as login/logout), which means users can only access the content publicly. Adding user authentication could allow users to create accounts and manage personal preferences like saved articles or personalized feeds.
+- No Offline Support: The app relies on a constant internet connection to fetch articles. There's no local caching implemented, meaning the app cannot function without an internet connection.
+- No Data Caching: Articles are fetched every time the app loads, resulting in slower startup times.
 
 ## Screenshots (Optional) 
 
