@@ -16,21 +16,21 @@ A Flutter application that displays a list of articles fetched from a public API
 ## Setup Instructions
 
 1. Clone the Repository
-  git clone https://github.com/your-username/news_article.git
-  cd news_article
+  - git clone https://github.com/your-username/news_article.git
+  - cd news_article
 
 2. Install Dependencies
-  flutter pub get
+  - flutter pub get
 
 4. Run the App
-  flutter run
+  - flutter run
 
 ## Tech Stack
 
-**Flutter SDK**: 3.x
-**State Management**: Provider
-**HTTP Client**: http package
-**Persistence**: shared_preferences
+- Flutter SDK: 3.x
+- State Management: Provider
+- HTTP Client: http package
+- Persistence: shared_preferences
 
 ## State Management Explanation 
 
